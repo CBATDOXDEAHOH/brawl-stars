@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawl Stars Магазин</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container {
+            max-width: 1200px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            background-color: #006400;
+            color: white;
+            padding: 10px;
+        }
+        .header img {
+            max-width: 100%;
+            height: auto;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .product {
+            background-color: #fafafa;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+            width: 180px;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .boost-trophies {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .boost-trophies h2 {
+            color: #e91e63;
+        }
+        .boost {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .boost-item {
+            background-color: #ddd;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="images.png" alt="Brawl Stars Header">
+        </div>
+
+        <div class="products">
+            <div class="product">
+                <img src="ygu.jfif" alt="Green T-Shirt">
+                <h3>Футболка зеленая</h3>
+            </div>
+            <div class="product">
+                <img src="f.jfif" alt="Notebook">
+                <h3>Блокнот</h3>
+            </div>
+            <div class="product">
+                <img src="b.jfif" alt="Black T-Shirt">
+                <h3>Футболка черная</h3>
+            </div>
+            <div class="product">
+                <img src="h.jfif" alt="Backpack">
+                <h3>Рюкзак</h3>
+            </div>
+            <div class="product">
+                <img src="v.jfif" alt="Mug">
+                <h3>Кружка</h3>
+            </div>
+        </div>
+
+        <div class="boost-trophies">
+            <h2>БУСТ ТРОФЕЕВ 25-35 РАНГИ</h2>
+            <div class="boost">
+                <div class="boost-item">
+                    <h3>УРОВЕНЬ 35</h3>
+                    <p>2000₸</p>
+                </div>
+                <div class="boost-item">
+                    <h3>RANK 25</h3>
+                    <p>500₸</p>
+                </div>
+                <div class="boost-item">
+                    <h3>RANK 30</h3>
+                    <p>1500₸</p>
+                </div>
+                <div class="boost-item">
+                    <h3>УРОВЕНЬ 26</h3>
+                    <p>1000₸</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
